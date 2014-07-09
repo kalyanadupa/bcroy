@@ -1,0 +1,54 @@
+body {
+  color: #222;
+  line-height: 1.3em !important; }
+
+a, * a {
+  color: #000 !important;
+  text-decoration: underline; }
+  a:visited, a:hover, a:active, * a:visited, * a:hover, * a:active {
+    color: #000 !important;
+    text-decoration: underline; }
+
+#logo {
+  text-align: center;
+  margin-bottom: 24px; }
+  #logo img {
+    width: 150px; }
+
+#header-top, nav, footer, #inner-banner, .subNavigation, aside.right, .print, .paginate, .more-link, #consultant-container > p {
+  display: none; }
+
+ul {
+  list-style: disc; }
+  ul li {
+    display: block;
+    width: 50%;
+    float: left;
+    margin: 0;
+    list-style: disc; }
+
+h2, h2 p {
+  margin: 0px; }
+
+.consutant-list {
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc; }
+  .consutant-list:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: ' ';
+    clear: both;
+    height: 0; }
+  .consutant-list .consultant-image {
+    float: right;
+    margin-left: 10px; }
+  .consutant-list h4 {
+    margin: 0; }
+  .consutant-list h5 {
+    margin: 0 0 12px 0; }
+  .consutant-list p {
+    margin: 0 0 6px 0; }
+  .consutant-list .consultant-profile h4 {
+    font-size: 20px; }
